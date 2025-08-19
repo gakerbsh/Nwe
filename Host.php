@@ -1,6 +1,6 @@
 <?php
 
-$token = "8404636086:AAFPh2-VDFsW9LcV7qCCrKODo3ehteioQmI"; // حط التوكن بتاعك
+$token = "8038325002:AAHbXU-arIg4RwHm_xj4LvZkavyw45ycsjM"; // حط التوكن بتاعك
 
 $input = file_get_contents("php://input");
 $update = json_decode($input, true);
@@ -97,3 +97,4 @@ function sendMessage($chat_id, $message, $keyboard = null) {
 
     file_get_contents($url . "?" . http_build_query($post));
 }
+
